@@ -1,4 +1,5 @@
 ﻿import React, {Component, Fragment} from 'react';
+import { connect } from 'react-redux'
 
 class Form extends Component{
 
@@ -47,11 +48,5 @@ class Form extends Component{
 
 }
 
-// {
-//   result.map(value => {
-//     return <li>{value}</li>
-//   }
-//   )
-// }
 
 export default Form;
